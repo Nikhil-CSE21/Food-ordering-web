@@ -290,7 +290,7 @@ header.hero{
     background-position: 0% 0%;
     background-repeat: no-repeat;
     overflow:hidden;
-    border:5px solid black;
+    
 }
 header.hero .container{
     position: relative;
@@ -381,7 +381,7 @@ section.top-products{
     font-family:"Raleway-bold";
     text-align:center;
     Position:relative;
-    margin-bottom:5rem;
+    margin-bottom:3rem;
 }
 .section-heading:after{
     content:'';
@@ -515,6 +515,7 @@ section.top-products .food-slider .food-card button:hover{
 }
 section.about-meal img{
     width:85%;
+    height: 85%;
 }
 .flex-1{
     flex:1;
@@ -529,6 +530,7 @@ section.about-meal h2{
 section.about-meal p{
     line-height: 1.7;
     margin-bottom:4rem;
+    text-align: justify;
 }
 
 section.our-services{
@@ -587,7 +589,7 @@ section.our-services .cards .service-card{
 }
 section.our-services .service-card .icon{
     position: absolute;
-    margin-bottom: ;
+    margin-bottom: 0.5rem;
     padding-bottom: 0;
     top:-45px;
     left:50%;
@@ -702,7 +704,8 @@ section.latest-news .article-wrapper{
     margin-bottom:1rem;
 }
 .latest-news .article-wrapper .card .card-content p{
-    line-height: 1.6;
+    line-height: 1.2rem;
+    text-align: justify;
 }
 .latest-news .btn-wrapper{
     margin-top:2rem;
@@ -730,6 +733,7 @@ section.subscribe h1{
 section.subscribe p{
     font-family:"Raleway-medium"; 
     font-size: 1rem;
+    text-align: justify;
     margin-bottom:1.5rem;
     line-height: 1.5;
 }
@@ -963,7 +967,7 @@ section
     }
 
     header.hero {
-        margin-top:3rem;
+        margin-top:0rem;
     }
     header.hero .hero-image{
         right:-160px;
@@ -1339,7 +1343,7 @@ section.top-products .food-slider .food-card button
 .latest-news .article-wrapper .card .card-content p
 {
     font-size: 0.8rem;
-    line-height: 1rem;;
+    line-height: 0.9rem;;
 }
 
 
@@ -1591,6 +1595,11 @@ latest-news .article-wrapper .card img
 
     }
 
+
+    section.subscribe .input-wrap button
+    {
+        background-color: var(--secondary);
+    }
 
     section.subscribe .input-wrap
     {
